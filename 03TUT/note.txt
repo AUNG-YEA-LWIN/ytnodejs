@@ -1,0 +1,17 @@
+* npm init -y 
+* npm install will automatically install the dependecies in node_modules when we get the project from git repository.
+* .gitignore file must not push when we push at the git repository. 
+* npm i nodemon -D is the shorthand sign of npm i nodemon --save-dev. 
+* \t means the distance for one tab space.
+* about npm dependencies.E.g. uuid
+	"uuid": "^8.3.2"
+  in here, ^ means go ahead update for minor version and patch version but don't update major version.
+	   ~ means go ahead update for patch version not for minor and major versions.
+	   * means go ahead for update the every latest version. 
+	   8 means major version.
+	   3 means minor version.
+	   2 means patch version.
+* if we use npm for specific versions,we should install npm packages for like this.
+	npm i uuid@8.3.1 
+* npm update will check and update for every updated dependencies.
+* npm rm nodemon-D will remove and delete the dev-Dependencies in package.json file.
